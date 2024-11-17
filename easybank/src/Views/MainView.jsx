@@ -4,7 +4,7 @@ import NavHeader from "../Components/NavHeader.jsx"
 function MainView() {
     return (
         <div className="relative overflow-x-hidden">
-            <img src="/image-mockups.png" className="absolute right-0 top-[0%] z-20 -mt-12 -mr-28 w-3/6" />
+            <img src="/image-mockups.png" className="absolute right-0 top-[0%] z-20 -mt-20 -mr-32 w-[55%]" />
             <header className="w-full h-screen bg-zinc-100 relative overflow-x-hidden">
                 <NavHeader />
                 <Hero />
