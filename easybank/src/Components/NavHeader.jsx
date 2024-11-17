@@ -3,7 +3,7 @@ import Button from './Button.jsx'
 
 function NavHeader() {
     return (
-        <div className="bg-white h-70 w-full flex justify-center items-center relative z-30">
+        <div className="bg-white h-70 w-full flex justify-center items-center relative z-20">
             <div className="h-full w-5/6 flex justify-between items-center">
                 <Logo />
                 <nav className="flex gap-4 font-public font-light">

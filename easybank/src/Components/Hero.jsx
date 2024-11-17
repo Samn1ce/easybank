@@ -3,8 +3,8 @@ import Button from './Button.jsx'
 
 function Hero() {
     return (
-        <div className='w-full h-[89%] flex justify-end items-center relative z-20'>
-            <div className='w-11/12 h-full flex justify-between relative'>
+        <div className='w-full h-[89%] flex justify-end items-center relative z-10'>
+            <div className='w-11/12 h-full flex justify-between relative overflow-hidden'>
                 <div className='w-1/2 flex flex-col justify-center items-start gap-8'>
                     <h1 className='text-6xl font-public text-zinc-800 font-light'>
                         Next Generation Digital Banking
@@ -17,7 +17,6 @@ function Hero() {
                     <Button />
                 </div>
                 <BG />
-                <img src='/image-mockups.png' alt='Mockups' />
             </div>
         </div>
     )

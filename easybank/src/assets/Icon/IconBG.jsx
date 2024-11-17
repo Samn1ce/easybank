@@ -5,7 +5,7 @@ export default function IconBG() {
             xmlnsXlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 1271 1034"
             // width="1271" height="1034"
-            className="absolute right-0 -mr-72 -mt-40 w-4/5"
+            className="absolute right-0 -mr-72 -mt-44 w-4/5"
         >
             <defs>
                 <linearGradient
