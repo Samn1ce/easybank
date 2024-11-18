@@ -3,10 +3,10 @@ export default function MobileBG() {
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
 			xmlnsXlink='http://www.w3.org/1999/xlink'
-			width='375'
-			height='423'
+			width='775'
+			height='400'
 			viewBox='0 0 800 423'
-			className=''
+			className='md:hidden'
 		>
 			<defs>
 				<linearGradient id='c' x1='0%' x2='100%' y1='50%' y2='50%'>
