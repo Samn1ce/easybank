@@ -20,6 +20,9 @@ export default {
 			backgroundColor: {
 				darkBlue: '#2d314d',
 			},
+			width: {
+				47: '47%',
+			},
 		},
 	},
 	plugins: [],
