@@ -17,6 +17,9 @@ export default {
 			zIndex: {
 				15: '15',
 			},
+			backgroundColor: {
+				darkBlue: '#2d314d',
+			},
 		},
 	},
 	plugins: [],
