@@ -5,8 +5,8 @@ function Articles() {
 	const [hoveredIndex, setHoveredIndex] = useState(false)
 
 	return (
-		<section className='w-full lg:h-[90vh] py-5 bg-zinc-100 flex items-center justify-center font-public'>
-			<div className='w-5/6 h-full flex flex-col justify-center gap-12'>
+		<section className='w-full py-5 bg-zinc-100 flex items-center justify-center font-public'>
+			<div className='max-w-7xl mx-auto w-5/6 h-full flex flex-col justify-center gap-12'>
 				<h2 className='text-4xl text-zinc-800'>Latest Articles</h2>
 				<div className='flex flex-wrap lg:flex-nowrap gap-8'>
 					{articles.map((a, index) => (

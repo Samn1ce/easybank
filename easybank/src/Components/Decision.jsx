@@ -5,8 +5,8 @@ import API from '../assets/Icon/IconAPI'
 
 function Decision() {
 	return (
-		<section className='w-full lg:h-[90vh] p-5 lg:p-0 flex bg-zinc-200 items-center justify-center font-public'>
-			<div className='max-w-7xl mx-auto w-5/6 lg:h-full flex flex-col justify-center gap-8 sm:gap-20'>
+		<section className='w-full px-5 lg:px-0 flex bg-zinc-200 items-center justify-center font-public'>
+			<div className='max-w-7xl mx-auto py-5 w-5/6 lg:h-full flex flex-col justify-center gap-8 sm:gap-20'>
 				<div className='flex flex-col gap-8 mb-5 text-center md:text-left'>
 					<h2 className='text-4xl font-public text-zinc-800 font-light'>
 						Why choose Easybank?
