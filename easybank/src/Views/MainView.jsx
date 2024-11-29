@@ -1,10 +1,10 @@
 import { useState } from 'react'
+
 import Articles from '../Components/Articles.jsx'
+import BottomNav from '../Components/BottomNav.jsx'
 import Decision from '../Components/Decision.jsx'
 import Hero from '../Components/Hero.jsx'
 import NavHeader from '../Components/NavHeader.jsx'
-import BottomNav from '../Components/BottomNav.jsx'
-import MobileBG from '../assets/Icon/IconMobileBG.jsx'
 
 function MainView() {
 	// State to manage menu visibility
@@ -28,15 +28,12 @@ function MainView() {
 			)}
 			<img
 				src='/image-mockups.png'
-				className='absolute left-1/2 transform -translate-x-1/2 max-w-[400px] z-20 md:translate-x-0 md:transform-none md:right-0 md:left-auto md:max-w-none md:top-16 lg:top-[0%] md:w-2/5 md:-mt-6 md:-mr-10 lg:-mt-20 lg:-mr-32 lg:w-[55%]'
+				className='absolute left-1/2 transform -translate-x-1/2 max-w-[440px] z-20 md:translate-x-0 md:transform-none md:right-0 md:left-auto md:max-w-none md:top-16 lg:top-[0%] md:w-2/5 md:-mt-6 md:-mr-10 lg:-mt-20 lg:-mr-32 lg:w-[55%]'
 			/>
-			<header className='w-full lg:h-screen bg-zinc-100 relative overflow-hidden'>
+			<header className='w-full min-h-[26rem] md:h-[70vh] lg:h-[90vh] lg:max-h-[700px] bg-zinc-100 relative overflow-hidden'>
 				<NavHeader isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
 				<Hero />
 			</header>
-			<div className='md:hidden absolute top-0'>
-				<MobileBG />
-			</div>
 			<main className='w-full'>
 				<Decision />
 				<Articles />

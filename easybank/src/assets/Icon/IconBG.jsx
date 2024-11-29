@@ -1,11 +1,10 @@
-export default function IconBG() {
+export default function IconBG({ className }) {
 	return (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
 			xmlnsXlink='http://www.w3.org/1999/xlink'
 			viewBox='0 0 1271 1034'
-			// width="1271" height="1034"
-			className='absolute right-0 hidden md:block md:-mr-80 md:w-full md:-mt-36 lg:-mr-80 lg:mt- lg:w-[90%] xl:-mr-96'
+			className={className}
 		>
 			<defs>
 				<linearGradient
