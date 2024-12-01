@@ -5,9 +5,9 @@ import Online from '../assets/Icon/IconOnline'
 
 function Decision() {
 	return (
-		<section className='w-full px-5 lg:px-0 flex bg-zinc-200 items-center justify-center font-public'>
+		<section className='w-full px-5 lg:px-0 flex bg-zinc-200 items-center justify-center font-public py-5'>
 			<div className='max-w-7xl mx-auto p-5 lg:h-full flex flex-col justify-center gap-8 sm:gap-20'>
-				<div className='flex flex-col gap-8 mb-5 text-center md:text-left'>
+				<div className='flex flex-col gap-8 mb-5 text-center justify-center items-center md:items-start md:justify-start md:text-left'>
 					<h2 className='text-4xl font-public text-zinc-800 font-light'>
 						Why choose Easybank?
 					</h2>

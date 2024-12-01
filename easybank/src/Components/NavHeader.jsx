@@ -9,11 +9,21 @@ function NavHeader({ isMenuOpen, toggleMenu }) {
 			<div className='size-full flex px-5 justify-between items-center max-w-7xl mx-auto'>
 				<Logo />
 				<nav className='hidden md:flex gap-4 font-public font-light'>
-					<div>Home</div>
-					<div>About</div>
-					<div>Contact</div>
-					<div>Blog</div>
-					<div>Careers</div>
+					<div className='text-zinc-400 hover:text-zinc-800 cursor-pointer'>
+						Home
+					</div>
+					<div className='text-zinc-400 hover:text-zinc-800 cursor-pointer'>
+						About
+					</div>
+					<div className='text-zinc-400 hover:text-zinc-800 cursor-pointer'>
+						Contact
+					</div>
+					<div className='text-zinc-400 hover:text-zinc-800 cursor-pointer'>
+						Blog
+					</div>
+					<div className='text-zinc-400 hover:text-zinc-800 cursor-pointer'>
+						Careers
+					</div>
 				</nav>
 				<nav onClick={toggleMenu} className='cursor-pointer md:hidden'>
 					{isMenuOpen ? <Close /> : <Menu />}

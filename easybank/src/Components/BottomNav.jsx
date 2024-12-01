@@ -6,7 +6,7 @@ import X from '../assets/Icon/IconTwitter.jsx'
 function BottomNav() {
 	return (
 		<div className='w-full bg-darkBlue lg:h-[30vh]'>
-			<div className='w-5/6 h-full flex flex-col justify-between items-center mx-auto py-5 gap-4 md:gap-0 md:flex-row'>
+			<div className='max-w-7xl w-5/6 h-full flex flex-col justify-between items-center mx-auto py-5 gap-4 md:gap-0 md:flex-row'>
 				<div className='flex justify-between items-center flex-col gap-4 w-1/2 md:gap-4 md:flex-row lg:gap-0'>
 					<div className='flex justify-center items-center flex-col gap-4'>
 						<Logo color='#ffffff' />
